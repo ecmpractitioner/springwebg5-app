@@ -1,0 +1,7 @@
+package net.sagati.repositories;
+
+import net.sagati.model.Author;
+import org.springframework.data.repository.CrudRepository;
+
+public interface AuthorRepository extends CrudRepository<Author,Long> {
+}
